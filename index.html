@@ -216,8 +216,8 @@
       </div>
        
       <!-- Cards -->
-      <div class="flex gap-4 mt-10 bg-gray-100">
-        <div class="card bg-base-100 w-1/4 shadow-xl bg-pink-200">
+      <div class="grid md:grid-cols-4 lg:grid-cols-4 gap-4 mt-10 bg-gray-100">
+        <div class="card bg-base-100 md:w-3/4 md:h-9/11 shadow-xl bg-pink-200">
           <figure>
             <img class="mr-40 mt-10" src="./assets/concept.png" alt="Shoes" />
           </figure>
@@ -227,7 +227,7 @@
           </div>
         </div>
         
-        <div class="card bg-base-100 w-1/4 shadow-xl bg-yellow-200">
+        <div class="card bg-base-100 md:w-3/4 md:h-9/11 shadow-xl bg-yellow-200">
           <figure>
             <img class="mr-40 mt-10" src="./assets/flow-chart.png" alt="Shoes" />
           </figure>
@@ -237,7 +237,7 @@
           </div>
         </div>
 
-        <div class="card bg-base-100 w-1/4 shadow-xl bg-green-200">
+        <div class="card bg-base-100 md:w-3/4 md:h-9/11 shadow-xl bg-green-200">
           <figure>
             <img class="mr-40 mt-10" src="./assets/vision.png" alt="Shoes" />
           </figure>
@@ -247,7 +247,7 @@
           </div>
         </div>
 
-        <div class="card bg-base-100 w-1/4 shadow-xl bg-blue-400">
+        <div class="card bg-base-100 md:w-3/4 md:h-9/11 shadow-xl bg-blue-400">
           <figure>
             <img class="mr-40 mt-10" src="./assets/budget-planning.png" alt="Shoes" />
           </figure>
@@ -277,7 +277,7 @@
         <!-- Grid Layout -->
         <div class="grid grid-cols-1 lg:flex-row md:grid-cols-2 w-full gap-5 ">
             <!-- First Row (2 Photos) -->
-            <div class=" flex flex-row items-center lg:w-[772px] bg-white border rounded-2xl p-5">
+            <div class="flex flex-col items-center lg:w-[772px] bg-white border rounded-2xl p-5">
                 <img src="./assets/img1.png" alt="House Model 1" class="w-1/2 rounded-xl" />
                 <div class="ml-5">
                     <h3 class="text-2xl font-bold">Commercial</h3>
@@ -297,7 +297,7 @@
                 <img src="./assets/img3.png" alt="House Model 3" class="w-full rounded-xl" />
             </div>
     
-            <div class="flex flex-row items-center bg-white lg:w-[573px] lg:h-[227.17px] border rounded-2xl p-5">
+            <div class="flex flex-col items-center bg-white lg:w-[573px] lg:h-[227.17px] border rounded-2xl p-5">
                 <img src="./assets/img4.png" alt="House Model 4" class="w-1/2 rounded-xl" />
                 <div class="ml-5">
                     <h3 class="text-2xl font-bold">Commercial</h3>
@@ -314,7 +314,7 @@
     
   <!-- Articles Section -->
    
-   <section class="bg-gray-100">
+   <section class="bg-gray-100 -ml-16">
        <!-- Text -->
        <div class="text-center">
         <button class="btn bg-btn-primary rounded-full font-bold my-10"><i class="fa-solid fa-arrow-right"></i> Rinterio News</button>
@@ -401,7 +401,7 @@
       <input class="rounded-full md:mb-3 mb-2 p-2" type="text" name="" id="" placeholder="Email Number*">
     </div>
 
-    <textarea class=" rounded-3xl p-5" name="" id="" cols="90" rows="10" placeholder="Write your message here"></textarea> <br>
+    <textarea class=" rounded-3xl p-5 md:w-2/3" name="" id="" cols="" rows="10" placeholder="Write your message here"></textarea> <br>
     
     <button class="btn bg-btn-primary md:w-[800px] mt-5 rounded-full font-bold">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2"></i></button>
 
@@ -412,10 +412,10 @@
 
    <!-- Footer -->
 
-  <footer class="footer footer-center text-white bg-gray-900">
+  <footer class="footer footer-center text-white bg-gray-900 w-[350px]">
     <button class="flex text-xl font-extrabold bg-gray-900 mt-20"> <i class="fa-solid fa-arrow-right bg-btn-primary rounded-full -rotate-45 p-3 text-black"></i> Rinterio</button>
-    <p class="text-gray-400">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
-    <nav class="grid grid-flow-col gap-10">
+    <p class="text-gray-400 ">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+    <nav class="grid grid-flow-col gap-6">
       <a class="link link-hover">Home</a>
       <a class="link link-hover">Services</a>
       <a class="link link-hover">Portfolio</a>
